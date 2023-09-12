@@ -9,7 +9,7 @@ function App() {
     <>
     <Navbar/>
       <div><TodoWrapper /></div>
-    <div className=''></div>
+   
     </>
   );
 }

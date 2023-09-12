@@ -11,12 +11,13 @@ export const TodoForm = ({ addTodo }) => {
     }
   };
   return (
+    
     <form className="TodoForm" onSubmit={handleSubmit}>
       <input
         type="text"
         className="TodoInput"
         value={value}
-        placeholder="What is the task for today?"
+        placeholder="Today's Task?"
         onChange={(e) => {
           setValue(e.target.value);
         }}

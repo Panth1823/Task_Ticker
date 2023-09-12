@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Panth1823/Task_Ticker/static/css/main.04dd387a.chunk.css",
+    "main.js": "/Panth1823/Task_Ticker/static/js/main.4f28b5cb.chunk.js",
+    "main.js.map": "/Panth1823/Task_Ticker/static/js/main.4f28b5cb.chunk.js.map",
+    "runtime-main.js": "/Panth1823/Task_Ticker/static/js/runtime-main.78955ab3.js",
+    "runtime-main.js.map": "/Panth1823/Task_Ticker/static/js/runtime-main.78955ab3.js.map",
+    "static/js/2.8b3e93f8.chunk.js": "/Panth1823/Task_Ticker/static/js/2.8b3e93f8.chunk.js",
+    "static/js/2.8b3e93f8.chunk.js.map": "/Panth1823/Task_Ticker/static/js/2.8b3e93f8.chunk.js.map",
+    "static/js/3.a34492d4.chunk.js": "/Panth1823/Task_Ticker/static/js/3.a34492d4.chunk.js",
+    "static/js/3.a34492d4.chunk.js.map": "/Panth1823/Task_Ticker/static/js/3.a34492d4.chunk.js.map",
+    "index.html": "/Panth1823/Task_Ticker/index.html",
+    "static/css/main.04dd387a.chunk.css.map": "/Panth1823/Task_Ticker/static/css/main.04dd387a.chunk.css.map",
+    "static/js/2.8b3e93f8.chunk.js.LICENSE.txt": "/Panth1823/Task_Ticker/static/js/2.8b3e93f8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78955ab3.js",
+    "static/js/2.8b3e93f8.chunk.js",
+    "static/css/main.04dd387a.chunk.css",
+    "static/js/main.4f28b5cb.chunk.js"
+  ]
+}
