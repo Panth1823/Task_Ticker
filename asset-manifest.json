@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Task_Ticker/static/css/main.25ea11e0.css",
+    "main.js": "/Task_Ticker/static/js/main.baedbe65.js",
+    "static/js/787.b9fb68bd.chunk.js": "/Task_Ticker/static/js/787.b9fb68bd.chunk.js",
+    "index.html": "/Task_Ticker/index.html",
+    "main.25ea11e0.css.map": "/Task_Ticker/static/css/main.25ea11e0.css.map",
+    "main.baedbe65.js.map": "/Task_Ticker/static/js/main.baedbe65.js.map",
+    "787.b9fb68bd.chunk.js.map": "/Task_Ticker/static/js/787.b9fb68bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25ea11e0.css",
+    "static/js/main.baedbe65.js"
+  ]
+}
