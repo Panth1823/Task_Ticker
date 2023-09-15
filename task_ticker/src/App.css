@@ -19,7 +19,7 @@ body {
 }
 
 .TodoWrapper h1 {
-  color:aliceblue;
+  color: aliceblue;
   text-align: center;
   font-family: "Poppins", sans-serif;
   margin-bottom: 1rem;
@@ -28,14 +28,13 @@ body {
 }
 
 .TodoWrapper {
-  background:#e98724;
+  background: #e98724;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(6, 4, 4, 0.5), 0 5px 15px rgba(0, 0, 0, 0.5);
-  border: 2px solid #FDFD96;
+  border: 2px solid #fdfd96;
   width: 500px;
-  
 }
 .TodoWrapper:hover {
   box-shadow: 0 0 20px #2d787c;
@@ -57,8 +56,8 @@ input {
   padding: 0.75rem 1rem;
   border: 0;
   border-radius: 0.317rem;
-  background-color: #fdfd96;
-  color: grey;
+  background-color: grey;
+  color: white;
   text-decoration: none;
 
   font-size: 1rem;
@@ -69,7 +68,7 @@ input {
   -webkit-font-smoothing: antialiased;
 }
 input::placeholder {
-  color: black;
+  color: white;
   opacity: 0.85;
 }
 input::after {
@@ -82,8 +81,8 @@ button {
   padding: 0.75rem 1rem;
   border: 0;
   border-radius: 0.317rem;
-  background-color: #FDFD96;
-  color: black;
+  background-color:grey;
+  color:white;
   text-decoration: none;
   font-weight: lighter;
   font-size: 1rem;
@@ -93,6 +92,10 @@ button {
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
   margin-left: 1rem;
+
+}
+button:hover {
+  background-color: grey;
 }
 
 button::after {
@@ -136,8 +139,8 @@ button::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #fdfd96;
-  color: black;
+  background: grey;
+  color: white;
   padding: 0.75rem 1rem;
   border-radius: 5px;
   margin-top: 10px;
