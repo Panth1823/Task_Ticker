@@ -19,7 +19,7 @@
 - Ensure you have Node.js and npm installed on your machine.
 
 ### Step 1: Clone the Repository
-git clone https://github.com/your-username/your-react-app.git
+git clone https://github.com/Panth1823/Task_Ticker.git
 
 ### Step 2: Navigate to the Project Directory
 
