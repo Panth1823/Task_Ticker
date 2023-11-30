@@ -1,6 +1,16 @@
 # [Task Ticker](https://panth1823.github.io/Task_Ticker/)
 ## Task Ticker: A React-powered, feature-rich todo list app for seamless task management, offering task addition, updates, and removal.
 
+### Images
+
+![image](https://github.com/Panth1823/Task_Ticker/assets/89696311/816fa4ab-9a24-4178-b423-2c435635fbac)
+
+![image](https://github.com/Panth1823/Task_Ticker/assets/89696311/ada09c07-11e1-4ee3-adb8-6207db799dc6)
+
+![image](https://github.com/Panth1823/Task_Ticker/assets/89696311/9c51d39d-bc86-451b-bd23-fcf7fce2e2b8)
+
+
+
 # Your React App
 
 ## Setup and Run Instructions
@@ -9,7 +19,7 @@
 - Ensure you have Node.js and npm installed on your machine.
 
 ### Step 1: Clone the Repository
-git clone https://github.com/your-username/your-react-app.git
+git clone https://github.com/Panth1823/Task_Ticker.git
 
 ### Step 2: Navigate to the Project Directory
 
