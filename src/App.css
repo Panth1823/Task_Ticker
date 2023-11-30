@@ -81,8 +81,8 @@ button {
   padding: 0.75rem 1rem;
   border: 0;
   border-radius: 0.317rem;
-  background-color:grey;
-  color:white;
+  background-color: grey;
+  color: white;
   text-decoration: none;
   font-weight: lighter;
   font-size: 1rem;
@@ -92,7 +92,6 @@ button {
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
   margin-left: 1rem;
-
 }
 button:hover {
   background-color: grey;
@@ -172,4 +171,23 @@ button::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.dropdown {
+  display: inline-block;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border: 0;
+  border-radius: 0.317rem;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: poppins, sans-serif;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 1rem;
 }
