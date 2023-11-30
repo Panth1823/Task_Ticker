@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/Task_Ticker/static/css/main.25ea11e0.css",
-    "main.js": "/Task_Ticker/static/js/main.baedbe65.js",
-    "static/js/787.b9fb68bd.chunk.js": "/Task_Ticker/static/js/787.b9fb68bd.chunk.js",
+    "main.css": "/Task_Ticker/static/css/main.7753bc29.chunk.css",
+    "main.js": "/Task_Ticker/static/js/main.5b3e01be.chunk.js",
+    "main.js.map": "/Task_Ticker/static/js/main.5b3e01be.chunk.js.map",
+    "runtime-main.js": "/Task_Ticker/static/js/runtime-main.4b5d854c.js",
+    "runtime-main.js.map": "/Task_Ticker/static/js/runtime-main.4b5d854c.js.map",
+    "static/js/2.25f27358.chunk.js": "/Task_Ticker/static/js/2.25f27358.chunk.js",
+    "static/js/2.25f27358.chunk.js.map": "/Task_Ticker/static/js/2.25f27358.chunk.js.map",
+    "static/js/3.a34492d4.chunk.js": "/Task_Ticker/static/js/3.a34492d4.chunk.js",
+    "static/js/3.a34492d4.chunk.js.map": "/Task_Ticker/static/js/3.a34492d4.chunk.js.map",
     "index.html": "/Task_Ticker/index.html",
-    "main.25ea11e0.css.map": "/Task_Ticker/static/css/main.25ea11e0.css.map",
-    "main.baedbe65.js.map": "/Task_Ticker/static/js/main.baedbe65.js.map",
-    "787.b9fb68bd.chunk.js.map": "/Task_Ticker/static/js/787.b9fb68bd.chunk.js.map"
+    "static/css/main.7753bc29.chunk.css.map": "/Task_Ticker/static/css/main.7753bc29.chunk.css.map",
+    "static/js/2.25f27358.chunk.js.LICENSE.txt": "/Task_Ticker/static/js/2.25f27358.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.25ea11e0.css",
-    "static/js/main.baedbe65.js"
+    "static/js/runtime-main.4b5d854c.js",
+    "static/js/2.25f27358.chunk.js",
+    "static/css/main.7753bc29.chunk.css",
+    "static/js/main.5b3e01be.chunk.js"
   ]
 }
