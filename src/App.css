@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,600;1,900&display=swap");
 
 * {
-  font-family: "Poppins", sans-serif;
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: poppins, sans-serif;
 }
 
 body {
-  background: lightslategray;
+  background: #e98724;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +20,7 @@ body {
 }
 
 .TodoWrapper h1 {
-  color: aliceblue;
+  color: #e98724;
   text-align: center;
   font-family: "Poppins", sans-serif;
   margin-bottom: 1rem;
@@ -28,7 +29,7 @@ body {
 }
 
 .TodoWrapper {
-  background: #e98724;
+  background: #eceff1;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 15px;
@@ -56,45 +57,61 @@ input {
   padding: 0.75rem 1rem;
   border: 0;
   border-radius: 0.317rem;
-  background-color: grey;
-  color: white;
+  background-color: #eceff1;
+  color: #e98724;
   text-decoration: none;
-
   font-size: 1rem;
   line-height: 1.5;
   font-family: poppins, sans-serif;
   cursor: pointer;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
+  box-shadow: inset -4px -4px 6px -1px #eceff1,
+    inset 2px 2px 8px -1px rgba(72, 79, 96, 0.5);
 }
+input:focus {
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+input:hover {
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
 input::placeholder {
-  color: white;
+  color: #e98724;
   opacity: 0.85;
-}
-input::after {
-  opacity: 0.85;
+  font-size: 18px;
+  line-height: 18px;
+  opacity: 1;
+  transition: all 250ms ease-in-out;
 }
 
 button {
   display: inline-block;
-  margin: 0;
+  margin-left: 1rem;
   padding: 0.75rem 1rem;
-  border: 0;
   border-radius: 0.317rem;
-  background-color: grey;
-  color: white;
+  color: #e98724;
   text-decoration: none;
   font-weight: lighter;
   font-size: 1rem;
   line-height: 1.5;
-  font-family: poppins, sans-serif;
   cursor: pointer;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
-  margin-left: 1rem;
+  line-height: 18px;
+  position: relative;
+  border: 3px solid rgba(255, 255, 255, 0);
+  outline: none;
+  text-align: center;
+  background-color: #eceff1;
+  transition: all 250ms ease-in-out;
+  box-shadow: 8px 8px 12px -2px rgba(72, 79, 96, 0.4), -6px -6px 12px -1px white;
 }
 button:hover {
-  background-color: grey;
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 button::after {
@@ -102,21 +119,15 @@ button::after {
 }
 
 .button:active {
-  box-shadow: inset 0 3px 4px hsla(0, 0%, 0%, 0.2);
+  box-shadow: inset -4px -4px 6px -1px white,
+    inset 2px 2px 8px -1px rgba(72, 79, 96, 0.5);
+  border-color: rgba(255, 255, 255, 0);
 }
 
 .button:focus {
   outline: thin dotted #444;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
-}
-
-.button_primary {
-  background-color: #1fa3ec;
-}
-
-.button_secondary {
-  background-color: #e98724;
 }
 
 .button-icon {
@@ -138,11 +149,11 @@ button::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: grey;
+  background: #e98724;
   color: white;
   padding: 0.75rem 1rem;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 1rem;
   cursor: pointer;
 }
 
@@ -161,7 +172,7 @@ button::after {
   font-size: 2rem;
   margin-top: 2rem;
   font-weight: light;
-  color: #e98724;
+  color: #eceff1;
 }
 
 .todo-input {
@@ -179,8 +190,7 @@ button::after {
   padding: 0.75rem 1rem;
   border: 0;
   border-radius: 0.317rem;
-  background-color: grey;
-  color: white;
+  color:#e98724;
   text-decoration: none;
   font-weight: lighter;
   font-size: 1rem;
@@ -190,4 +200,25 @@ button::after {
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
   margin-left: 1rem;
+  background-color: #eceff1;
+  transition: all 250ms ease-in-out;
+  box-shadow: 8px 8px 12px -2px rgba(72, 79, 96, 0.4), -6px -6px 12px -1px white;
 }
+
+.dropdown:active {
+  box-shadow: inset -4px -4px 6px -1px white,
+    inset 2px 2px 8px -1px rgba(72, 79, 96, 0.5);
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.dropdown:focus {
+  outline: thin dotted #444;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.dropdown:hover {
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
