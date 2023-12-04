@@ -33,13 +33,12 @@ body {
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 15px;
-  box-shadow: 0 0 10px rgba(6, 4, 4, 0.5), 0 5px 15px rgba(0, 0, 0, 0.5);
-  border: 2px solid #fdfd96;
+  box-shadow: 8px 8px 12px -2px rgba(72, 79, 96, 0.4), -6px -6px 12px -1px white;
   width: 500px;
 }
 .TodoWrapper:hover {
-  box-shadow: 0 0 20px #2d787c;
-  border: 2px solid black;
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.5);
 }
 .TodoInput input {
   border-radius: 20px;
