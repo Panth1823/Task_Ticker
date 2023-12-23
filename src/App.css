@@ -41,6 +41,7 @@ body {
 }
 .TodoInput input {
   border-radius: 20px;
+  outline: none;
 }
 
 .TodoForm {
@@ -66,6 +67,7 @@ input {
   -webkit-font-smoothing: antialiased;
   box-shadow: inset -4px -4px 6px -1px #eceff1,
     inset 2px 2px 8px -1px rgba(72, 79, 96, 0.5);
+    outline: none;
 }
 input:focus {
   box-shadow: none;
