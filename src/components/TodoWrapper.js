@@ -1,11 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TodoForm from "./TodoForm";
 import { v4 as uuidv4 } from "uuid";
 import { Todo } from "./Todo";
 import { EditTodo } from "./EditTodo";
 
 export const TodoWrapper = () => {
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useState(() => {
+    const savedTodos = localStorage.getItem("todos");
+    if (savedTodos) {
+      return JSON.parse(savedTodos);
+    } else {
+      return [];
+    }
+  });
+
+  useEffect(() => {
+    localStorage.setItem("todos", JSON.stringify(todos));
+  }, [todos]);
 
   const addTodo = (todo) => {
     setTodos([
@@ -17,13 +28,15 @@ export const TodoWrapper = () => {
   const toggleComplete = (id) => {
     setTodos(
       todos.map((todo) =>
-        todo.id === id ? { ...todo, completed: todo.completed } : todo
+        todo.id === id ? { ...todo, completed: !todo.completed } : todo
       )
     );
   };
+
   const deleteTodo = (id) => {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
+
   const editTodo = (id) => {
     setTodos(
       todos.map((todo) =>
@@ -31,6 +44,7 @@ export const TodoWrapper = () => {
       )
     );
   };
+
   const editTask = (task, id) => {
     setTodos(
       todos.map((todo) =>
@@ -38,6 +52,7 @@ export const TodoWrapper = () => {
       )
     );
   };
+
   return (
     <div className="TodoWrapper ">
       <h1>Task Ticker</h1>
@@ -58,4 +73,5 @@ export const TodoWrapper = () => {
     </div>
   );
 };
+
 export default TodoWrapper;

@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,600;1,900&display=swap");
 
 * {
-  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -67,7 +66,7 @@ input {
   -webkit-font-smoothing: antialiased;
   box-shadow: inset -4px -4px 6px -1px #eceff1,
     inset 2px 2px 8px -1px rgba(72, 79, 96, 0.5);
-    outline: none;
+  outline: none;
 }
 input:focus {
   box-shadow: none;
@@ -190,7 +189,7 @@ button::after {
   padding: 0.75rem 1rem;
   border: 0;
   border-radius: 0.317rem;
-  color:#e98724;
+  color: #e98724;
   text-decoration: none;
   font-weight: lighter;
   font-size: 1rem;
@@ -221,4 +220,3 @@ button::after {
   box-shadow: none;
   border-color: rgba(255, 255, 255, 0.5);
 }
-
