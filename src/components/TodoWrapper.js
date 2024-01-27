@@ -6,7 +6,7 @@ import { EditTodo } from "./EditTodo";
 
 export const TodoWrapper = () => {
   const [todos, setTodos] = useState(() => {
-    const savedTodos = localStorage.getItem("todos");
+    const savedTodos = sessionStorage.getItem("todos");
     if (savedTodos) {
       return JSON.parse(savedTodos);
     } else {
@@ -15,7 +15,7 @@ export const TodoWrapper = () => {
   });
 
   useEffect(() => {
-    localStorage.setItem("todos", JSON.stringify(todos));
+    sessionStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
 
   const addTodo = (todo) => {
